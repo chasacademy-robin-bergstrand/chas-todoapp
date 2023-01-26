@@ -4,7 +4,7 @@ import TodoItem from "./TodoItem";
 
 function App() {
     const [todos, setTodos] = useState([]);
-    const [todoInput, setTodoInput] = useState();
+    const [todoInput, setTodoInput] = useState("");
     const [nextId, setNextId] = useState(0);
 
     function addTodo() {
